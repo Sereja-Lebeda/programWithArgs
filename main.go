@@ -21,5 +21,5 @@ func main() {
 	for i, arg := range args[1:] { // Пропускаем args[0] (имя исполняемого файла)
 		fmt.Printf("Аргумент %d: %s\n", i+1, arg)
 	}
-	time.Sleep(10 * time.Second)
+	time.Sleep(30 * time.Second)
 }
